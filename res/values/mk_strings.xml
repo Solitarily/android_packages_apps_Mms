@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Gray hint displayed in the search field in Contacts when empty -->
+    <string name="search_bar_hint">Search contacts</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="select_all">All</string>
+
+    <!-- Direct Call -->
+    <string name="direct_call_title">Direct Call</string>
+    <string name="direct_call_summary">Picking up the phone calls the current contact</string>
+    
+    <!-- Message Font size -->
+    <string name="pref_title_mms_message_font_size">Message font size</string>
+    <string name="pref_summary_mms_message_font_size">Change font size of message view</string>
+    <string name="pref_dialogtitle_mms_message_font_size">Select font size</string>
+
+    <!--Delay delivery-->
+    <string name="pref_title_delay_send">Delay delivery</string>
+    <string name="pref_summary_delay_send">Delay the delivery of SMS messages by the specified time, during which you may cancel the message</string>
+    <string name="delay_duration_title">Delay duration</string>
+    <string name="delay_send_duration_options_entry_1">5 seconds (Default)</string>
+    <string name="delay_send_duration_options_entry_2">10 seconds</string>
+    <string name="delay_send_duration_options_entry_3">20 seconds</string>
+    <string name="delay_send_duration_options_entry_4">30 seconds</string>
+    <string name="delay_send_duration_options_entry_5">60 seconds</string>
+    <string name="remaining_delay_time">The message will be sent after &lt;font color="red"&gt;&lt;big&gt;%1$d&lt;/big&gt;&lt;/font&gt; seconds</string>
+    <string name="sent_countdown">SMS delivery countdown</string>
+</resources>
